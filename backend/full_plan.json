@@ -1,0 +1,47 @@
+{
+    "COMP101": {
+        "name": "Introduction to Programming",
+        "hours": 3,
+        "prerequisites": [],
+        "time": "Mon 08-10"
+    },
+    "COMP102": {
+        "name": "Computer Fundamentals",
+        "hours": 3,
+        "prerequisites": [],
+        "time": "Mon 10-12"
+    },
+    "COMP201": {
+        "name": "Data Structures",
+        "hours": 3,
+        "prerequisites": [
+            "COMP101"
+        ],
+        "time": "Tue 08-10"
+    },
+    "COMP202": {
+        "name": "Computer Architecture",
+        "hours": 3,
+        "prerequisites": [
+            "COMP102"
+        ],
+        "time": "Tue 10-12"
+    },
+    "COMP301": {
+        "name": "Algorithms",
+        "hours": 3,
+        "prerequisites": [
+            "COMP201",
+            "COMP202"
+        ],
+        "time": "Wed 08-10"
+    },
+    "GRAD400": {
+        "name": "Graduation Project",
+        "hours": 4,
+        "prerequisites": [
+            "COMP301"
+        ],
+        "time": "Thu 10-12"
+    }
+}
